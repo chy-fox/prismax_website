@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "Subscription marketplace for physical AI",
+    "headline": "The service layer for physical AI",
+    "sub": "VLA Foundry captures real robotic work. Robotic Data delivers it on subscription — for builders, researchers, and teams training physical AI.",
+    "ctaPrimary": "View plans",
+    "ctaSecondary": "Browse the data"
+  },
+  "pillars": {
+    "eyebrow": "What PrismaX sets standards for",
+    "lede": "Three pillars. Each pillar pairs an asset with the system that produces or uses it.",
+    "items": [
+      {
+        "name": "Robots",
+        "system": "Deployment",
+        "copy": "PrismaX defines the embodiments physical AI should take for specific goals and environments, ensuring capability matches context from the start."
+      },
+      {
+        "name": "Data",
+        "system": "Data Generation",
+        "copy": "PrismaX specifies the characteristics of high-quality robotics data, including how it should be captured and what makes it useful for learning."
+      },
+      {
+        "name": "Intelligence",
+        "system": "Learning",
+        "copy": "PrismaX connects real operation and structured data generation directly to model training, allowing intelligence to improve across tasks, environments, and robots."
+      }
+    ]
+  }
+}

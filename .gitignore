@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+
+# Backups / scaffolding (not part of the site)
+_pre-symlink-backup-second-attempt.tgz
+new-version.sh
+
+# Older version experiments — excluded from this upload
+/PrismaX Website Second Attempt/
+/PrismaX Website V3/
+/PrismaX Website V4/
+/PrismaX Website V5/
