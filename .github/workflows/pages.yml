@@ -1,0 +1,55 @@
+name: Deploy V6 to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Allow the workflow to publish to Pages via OIDC
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One concurrent deploy; let an in-progress run finish
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble self-contained V6 site (resolve _shared symlinks)
+        run: |
+          set -euo pipefail
+          src="PrismaX Website V6"
+          mkdir -p _site
+          # Copy only what index.html references, dereferencing symlinks (-L)
+          cp -L  "$src/index.html"   _site/
+          cp -L  "$src/content.js"   _site/
+          cp -L  "$src/content.json" _site/
+          cp -RL "$src/brand_assets" _site/brand_assets
+          cp -RL "$src/videos"       _site/videos
+          cp -RL "$src/stills"       _site/stills
+          echo "Assembled site:" && du -sh _site
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
