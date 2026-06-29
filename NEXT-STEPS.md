@@ -9,18 +9,15 @@
 ## Shaye
 
 - [ ] Confirm plan **prices** with product ($9 / $89 / $899) — not from proof-points.
-- [ ] Gather footer **social URLs** — X · LinkedIn · Discord · YouTube · Telegram · Substack.
-- [ ] Provide **hero episode clips** (real platform data for the B&W → warm-hover grid).
-- [ ] Provide **VLA Foundry product-UI screenshots**, one matched per card (Foundry Part 1 ships next week).
+- [x] Provide footer **social URLs** — added to copy doc §10.
 - [ ] Pull the **upcoming events** list (to re-enable the second Events strip; launch runs a single Recent strip).
-- [ ] Route the **partner logo list** through legal (announced relationships only).
-- [ ] Resolve **MIT** + **NVIDIA** framing in Backed by (MIT → bio context, not a backer logo; NVIDIA → "NVIDIA Inception").
 - [ ] **Sketch the subpages** with Claude (order below).
 
 ## Chyna
 
 - [ ] Build homepage **format / layout / structure** from `CHYNA-design-guidance.md`.
-- [ ] **Pull logos** for Backed by + Partners (lists in the design-guidance doc).
+- [ ] Finalize the **Backed by** + **Partners** lists and **pull logos** (lists in the design-guidance doc).
+- [ ] Provide **hero episode clips** + **VLA Foundry product-UI screenshots** (one per card; Foundry Part 1 ships next week).
 - [ ] Implement the section changes:
   - [ ] Hero: B&W video grid, muted-warm-on-hover; retire the mouse animation; relabel CTAs.
   - [ ] VLA Foundry: keep the 4-card bento, **drop video**, swap in matched product-UI images.

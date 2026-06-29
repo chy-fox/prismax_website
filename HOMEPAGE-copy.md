@@ -98,7 +98,13 @@ Approved section copy, drafted section by section against `HOMEPAGE-v3-architect
   - **Product** — VLA Foundry · Robotic Data  *(Pricing lives on the Robotic Data page, not a separate page)*
   - **Blog** — Insights · Announcements · Product Updates · Articles
   - **Company** — About · Careers · Events · Press & Contact
-  - **Social** — X · LinkedIn · Discord · YouTube · Telegram · Substack  *(GitHub removed)*
+  - **Social** *(GitHub removed)*
+    - X — https://x.com/PrismaXai
+    - LinkedIn — https://www.linkedin.com/company/prismaxai/
+    - Discord — https://discord.com/invite/prismaxai
+    - YouTube — https://www.youtube.com/@PrismaX-AI
+    - Telegram — https://t.me/PrismaX_News
+    - Substack — https://substack.com/@prismaxai
   - **Legal** — Privacy · Terms · Subscription Terms
 - **Operator CTA:** `Become an owner-operator` (→ VLA Foundry › Owner/Operators)
 - **Copyright:** © [dynamic year] PrismaX
@@ -106,7 +112,8 @@ Approved section copy, drafted section by section against `HOMEPAGE-v3-architect
 ---
 
 ## Open items (not blockers)
-- §5c plans **prices** — confirm with product ($9 / $89 / $899).
-- Backed by / Partners **logos** — Chyna pulls; resolve MIT + NVIDIA framing + partner legal routing (see design-guidance doc).
-- **Upcoming events** list (for the second Events strip later).
-- Footer **social links** — gather real URLs (X, LinkedIn, Discord, YouTube, Telegram, Substack).
+- §5c plans **prices** — confirm with product ($9 / $89 / $899). *(Shaye)*
+- Backed by / Partners **lists + logos** — Chyna finalizes + pulls (see design-guidance doc).
+- **Hero clips** + **Foundry UI screenshots** — Chyna.
+- **Upcoming events** list — Shaye (second Events strip, later).
+- Footer **social links** — ✅ added in §10.

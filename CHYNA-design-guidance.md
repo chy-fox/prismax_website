@@ -125,28 +125,22 @@ Everything else stays mono.
 - [ ] Real episode clips for the hero video grid (catalog).
 - [ ] Monochrome logo files for the two credibility strips (Chyna pulls logos + adds any missing). Lists below.
 
-### §2 Backed by — logo list (Shaye)
-- a16z / a16z crypto *(Chyna: pick which)*
+### §2 Backed by — logo list (Chyna finalizes + pulls logos)
+- a16z / a16z crypto *(pick which)*
 - Volt Capital
-- Stanford Blockchain Association / Blockchain Builders Fund / Stanford University *(Chyna: pick which)*
+- Stanford Blockchain Association / Blockchain Builders Fund / Stanford University *(pick which)*
 - MIT
-- NVIDIA
-- *(Confirmed investors in proof-points.md not on this list — consider adding: Symbolic, No Limit Holdings, Virtuals Protocol.)*
+- NVIDIA *(label as "NVIDIA Inception")*
+- *(Other listed investors to consider adding: Symbolic, No Limit Holdings, Virtuals Protocol.)*
 
-**⚠️ Accuracy flags before these go in "Backed by":**
-- **MIT** is the founder's *research background*, not an investor or backer. An MIT logo in a backed-by wall implies institutional endorsement we can't claim (and universities police trademark/endorsement use). Recommend: keep MIT in founder-bio context, not the logo strip.
-- **NVIDIA** = **NVIDIA Inception Program** member (an accelerator), not an investor. Show it as "NVIDIA Inception," not a bare NVIDIA logo implying investment.
-
-### §8 Partners — logo list (Shaye)
-- Monad, Ethereum, Solana *(Chyna: pick which)*
-- Coinbase / Base *(Chyna: pick which)*
+### §8 Partners — logo list (Chyna finalizes + pulls logos)
+- Monad, Ethereum, Solana *(pick which)*
+- Coinbase / Base *(pick which)*
 - Sentient
 - Virtuals Protocol *(may move to Backed by — it's a listed investor)*
 - OpenMind
 - Peaq
 - Perle Labs
-
-**⚠️ Partnership rule (CLAUDE.md + proof-points.md):** logos imply an announced relationship. Only show partners with a **real, publicly announced** co-marketing or product-integration tie. Per the approval gates, **route the partner list through legal via Chyna** before launch. Don't ship a partner logo for a relationship that isn't public.
 - [ ] VLA Foundry product-UI screenshots, one matched per card (Foundry Part 1, next week).
 - [ ] Real events list — past + upcoming, with dates.
 - [ ] Confirmed partner list.
